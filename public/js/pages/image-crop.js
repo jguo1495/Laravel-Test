@@ -1,0 +1,1 @@
+$(function(){ $('#combat_image').Jcrop(); });
