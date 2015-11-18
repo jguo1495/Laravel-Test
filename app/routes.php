@@ -32,10 +32,10 @@ Route::post('login', array('as' => 'login', 'uses' => 'AuthController@handleLogi
 |--------------------------------------------------------------------------
 | Pages Routes
 |--------------------------------------------------------------------------
-|
+| The following functions are used to
 | Render Pages
-|
 */
+
 Route::get('main', 'HomeController@showMainPage');
 Route::get('timeline', 'HomeController@showTimelinePage');
 Route::get('log', 'HomeController@showLogDetailPage');
